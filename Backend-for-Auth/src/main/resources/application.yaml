@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: Backend-for-Auth
+  profiles:
+    active: dev
+
+
+
+server:
+  port: 8080
