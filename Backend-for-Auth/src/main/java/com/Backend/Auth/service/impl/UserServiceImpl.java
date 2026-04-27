@@ -1,4 +1,4 @@
-package com.Backend.Auth.service;
+package com.Backend.Auth.service.impl;
 
 import com.Backend.Auth.dtos.UserDto;
 import com.Backend.Auth.entities.Provider;
@@ -6,6 +6,7 @@ import com.Backend.Auth.entities.User;
 import com.Backend.Auth.exceptions.ResourceNotFoundException;
 import com.Backend.Auth.helpers.UserHelper;
 import com.Backend.Auth.repository.UserRepo;
+import com.Backend.Auth.service.UserService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
